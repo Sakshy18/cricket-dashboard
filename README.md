@@ -1,6 +1,5 @@
-# Preswald Project
+Preswald Project
+Dataset
+The dataset contains information about most scored runs in IPL 2022.
 
-## Setup
-1. Configure your data connections in `preswald.toml`
-2. Add sensitive information (passwords, API keys) to `secrets.toml`
-3. Run your app with `preswald run hello.py`
+Dataset source: https://www.kaggle.com/datasets/iamsouravbanerjee/ipl-player-performance-dataset

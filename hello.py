@@ -20,7 +20,7 @@ fig1 = px.bar(df_filtered.nlargest(10, 'Runs'), x='Player', y='Runs',
               color_continuous_scale='blues')
 plotly(fig1)
 
-# Strike Rate Distribution for Top 5 Players
+# Strike Rate Distribution for Top 5 Players in the data
 top_players = df.nlargest(5, 'Runs')
 fig2 = px.histogram(top_players, x='SR', nbins=20,
                     title='Strike Rate Distribution for Top 5 Players',
