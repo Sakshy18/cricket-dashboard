@@ -1,4 +1,5 @@
 # 🏏 IPL 2022 Player Performance Dashboard
+check it here : (https://sports-dashboard-375352-ukdkaats-ndjz2ws6la-ue.a.run.app/)
 
 This project is a **Cricket Runs Dashboard** built with **Preswald**. It visualizes the top cricket statistics from **IPL 2022**, including runs scored, strike rates, and performance trends.
 
@@ -31,12 +32,12 @@ Ensure you have Python installed, then install **Preswald**:
 ```bash
 pip install preswald
 
+```
 
----
-
-## Run Locally 
+## 2️⃣ Run Locally 
 Under the cricket-dashboard working directoy run the command preswald run.
 
+
+## 3️⃣ Deploy 
 Under the cricket-dashboard working directoy run the command preswald deploy --target structured --github <your-github-username> --api-key <your-api-key> hello.py.
-A sample deployed version is available here:
-https://sports-dashboard-375352-ukdkaats-ndjz2ws6la-ue.a.run.app/
+
