@@ -19,7 +19,7 @@ This project is a **Cricket Runs Dashboard** built with **Preswald**. It visuali
 - **Strike Rate Distribution for Top 5 Players**  
 - **Runs vs. Balls Faced Heatmap**  
 - **Interactive Slider to Filter Players by Runs**  
-- **SQL Query-based Data Filtering**  
+
 
 ---
 
@@ -35,9 +35,9 @@ pip install preswald
 ```
 
 ## 2️⃣ Run Locally 
-Under the cricket-dashboard working directoy run the command preswald run.
+Under the `cricket-dashboard` working directoy run the command `preswald run`.
 
 
 ## 3️⃣ Deploy 
-Under the cricket-dashboard working directoy run the command preswald deploy --target structured --github <your-github-username> --api-key <your-api-key> hello.py.
+Under the `cricket-dashboard` working directoy run the command `preswald deploy --target structured --github <your-github-username> --api-key <your-api-key> hello.py`.
 
